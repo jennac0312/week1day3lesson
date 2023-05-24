@@ -1,19 +1,28 @@
+*{
+    font-family: monospace;
+}
 body{
-    margin:auto
+    margin:2em auto
 }
 .posterContainer{
     border: 5px  dashed red;
     background-color: yellow;
+    width: 75%;
+    margin: auto;
 }
 
 .title{
     text-decoration: overline underline;
     text-align: center;
+    font-size: 5em;
+    margin: .25em;
 }
 
 .question{
     text-align: center;
     font-weight: bolder;
+    margin: .25em;
+    font-size: 3em;
 }
 
 .img{
@@ -27,5 +36,15 @@ img{
 
 p, h3{
     text-align: center;
-    font-weight: bolder; 
+    font-weight: bold;
+}
+
+p{
+    font-size: 2.5em;
+}
+
+h3{
+    font-size: 4em;
+    font-weight: bolder;
+    margin-bottom: 0;
 }
