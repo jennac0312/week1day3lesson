@@ -1,0 +1,31 @@
+body{
+    margin:auto
+}
+.posterContainer{
+    border: 5px  dashed red;
+    background-color: yellow;
+}
+
+.title{
+    text-decoration: overline underline;
+    text-align: center;
+}
+
+.question{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.img{
+    display: flex;
+    justify-content: space-around;
+}
+
+img{
+    height: 300px;
+}
+
+p, h3{
+    text-align: center;
+    font-weight: bolder; 
+}
